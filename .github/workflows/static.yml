@@ -1,0 +1,25 @@
+            width: 200px;
+            color: #6f42c1;
+        }
+
+        @media (max-width: 768px) {
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stage {
+                flex-direction: column;
+            }
+            
+            .stage-number {
+                width: 100%;
+                height: 60px;
+            }
+            
+            .info-table td:first-child {
+                width: auto;
+            }
+        }
+    </style>
+</body>
+</html>
